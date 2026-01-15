@@ -101,8 +101,9 @@ button:active {
 }
 
 .wake-lock-button.active {
-  background-color: #4caf50;
-  border-color: #45a049;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: #a8b5ff;
+  box-shadow: 0 0 12px rgba(168, 181, 255, 0.5);
 }
 
 .toast {
