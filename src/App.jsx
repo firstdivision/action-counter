@@ -74,7 +74,7 @@ function App() {
         >
           Action
         </button>
-        <button className="reset-button" onClick={handleReset}>
+        <button className={`reset-button ${count === 3 ? 'pulse' : ''}`} onClick={handleReset}>
           Reset
         </button>
       </div>

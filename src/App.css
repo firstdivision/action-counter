@@ -75,8 +75,17 @@ button {
   background-color: #ff9999;
 }
 
-button:active {
-  opacity: 0.9;
+.reset-button.pulse {
+  animation: textPulse 2s ease-in-out infinite;
+}
+
+@keyframes textPulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
 }
 
 .wake-lock-button {
