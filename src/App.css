@@ -21,7 +21,7 @@
   font-size: 15rem;
   margin: 0;
   font-weight: bold;
-  color: #646cff;
+  color: #a8b5ff;
 }
 
 .button-container {
@@ -49,12 +49,12 @@ button {
 }
 
 .action-button {
-  background-color: #646cff;
+  background-color: #a8b5ff;
   color: white;
 }
 
 .action-button:hover:not(:disabled) {
-  background-color: #535bf2;
+  background-color: #9aa9ff;
 }
 
 .action-button:disabled {
@@ -64,12 +64,12 @@ button {
 }
 
 .reset-button {
-  background-color: #f44336;
+  background-color: #ffb3b3;
   color: white;
 }
 
 .reset-button:hover {
-  background-color: #d32f2f;
+  background-color: #ff9999;
 }
 
 button:active {
