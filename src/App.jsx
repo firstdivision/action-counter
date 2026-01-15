@@ -44,7 +44,7 @@ function App() {
         // Use NoSleep as fallback/enhancement (works better on iOS)
         await noSleep.enable()
         setWakeLockActive(true)
-        showToast('Coffee Mode! Screen will stay awake')
+        showToast('Coffee Mode activated! Screen will stay awake')
       } catch (err) {
         console.error('Failed to enable wake lock:', err)
         showToast('Failed to enable wake lock')
