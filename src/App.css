@@ -1,42 +1,47 @@
 .app-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 100vh;
-  padding: 2rem;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .counter-display {
-  flex: 1;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .counter-display h1 {
-  font-size: 8rem;
+  font-size: 15rem;
   margin: 0;
   font-weight: bold;
   color: #646cff;
 }
 
 .button-container {
+  height: 50vh;
   display: flex;
-  gap: 1rem;
+  gap: 0;
   width: 100%;
-  max-width: 500px;
-  padding-bottom: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
 button {
   flex: 1;
-  padding: 1.5rem 2rem;
-  font-size: 1.25rem;
+  width: 50%;
+  height: 100%;
+  padding: 0;
+  font-size: 2rem;
   font-weight: 600;
   border: none;
-  border-radius: 8px;
+  border-radius: 0;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -76,27 +81,20 @@ button:active {
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .counter-display h1 {
-    font-size: 6rem;
-  }
-  
-  .button-container {
-    flex-direction: column;
-    max-width: 300px;
+    font-size: 12rem;
   }
   
   button {
-    padding: 1.25rem 1.5rem;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
   }
 }
 
 @media (max-width: 480px) {
   .counter-display h1 {
-    font-size: 4rem;
+    font-size: 10rem;
   }
   
   button {
-    padding: 1rem 1.25rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
