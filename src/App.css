@@ -73,9 +73,9 @@ button {
 }
 
 button:active {
-  transform: translateY(0);
+  opacity: 0.9;
 }
-opacity: 0.9
+
 .wake-lock-button {
   position: fixed;
   bottom: 20px;
