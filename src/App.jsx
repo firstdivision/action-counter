@@ -44,7 +44,7 @@ function App() {
         // Use NoSleep as fallback/enhancement (works better on iOS)
         await noSleep.enable()
         setWakeLockActive(true)
-        showToast('Screen will stay on')
+        showToast('Coffee Mode! Screen will stay awake')
       } catch (err) {
         console.error('Failed to enable wake lock:', err)
         showToast('Failed to enable wake lock')
@@ -83,7 +83,7 @@ function App() {
         onClick={toggleWakeLock}
         title={wakeLockActive ? 'Screen will stay on' : 'Screen may sleep'}
       >
-        {wakeLockActive ? '🔒' : '💤'}
+        {wakeLockActive ? '☕' : '💤'}
       </button>
       {toast.show && <div className="toast">{toast.message}</div>}
     </div>

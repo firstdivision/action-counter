@@ -107,7 +107,7 @@ button:active {
 
 .toast {
   position: fixed;
-  bottom: 100px;
+  top: 20px;
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.9);
