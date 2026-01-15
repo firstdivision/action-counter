@@ -21,7 +21,7 @@ function App() {
     setToast({ show: true, message })
     setTimeout(() => {
       setToast({ show: false, message: '' })
-    }, 2000)
+    }, 3500)
   }
 
   const handleAction = () => {

@@ -117,7 +117,7 @@ button:active {
   font-size: 1rem;
   font-weight: 500;
   z-index: 101;
-  animation: slideUp 0.3s ease-out, slideDown 0.3s ease-in 1.7s;
+  animation: slideUp 0.3s ease-out, slideDown 0.3s ease-in 3.2s;
   pointer-events: none;
 }
 
